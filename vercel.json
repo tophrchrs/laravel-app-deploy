@@ -18,6 +18,8 @@
         "APP_DEBUG": "true",
         "APP_URL": "https://laravel-app-deploy.vercel.app",
 
+        "APP_KEY": "base64:B053/QVZ0ku9fKO3eNqVc1YhdyLoX/nzAFK6vTx5AcI=",
+
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
         "APP_PACKAGES_CACHE": "/tmp/packages.php",
