@@ -1,11 +1,15 @@
 {
-    "version": 2,
     "functions": {
-      "api/*.php": {
-        "runtime": "vercel-php@0.7.0"
-      }
+        "api/*.php": {
+            "runtime": "vercel-php@0.7.0"
+        }
     },
     "routes": [
-      { "src": "/(.*)",  "dest": "/public/index.php" }
-    ]
-  }
+        { "src": "/(.*)", "dest": "/public/index.php" }
+    ],
+    "build": {
+        "env": {
+            "NODE_VERSION": "18"
+        }
+    }
+}
